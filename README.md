@@ -74,19 +74,24 @@ This WAPDA Management System is a desktop application built with Java Swing and 
    git clone https://github.com/yourusername/wapda-management-system.git
    
 
-2. **Import Database**  
+2. **Import Database**
+   
   Import the provided .sql file into your MySQL server.
   
 
-3. **Update DB Config**  
+4. **Update DB Config**  
   In the Java code, configure your DB connection:
 
   String url = "jdbc:mysql://localhost:3306/your_db_name";
+  
   String username = "root";
+  
   String password = "your_password";
 
 5. **Run the Project**
+   
   Open the project in VS-Code or Eclipse
+  
   Run the main class
 
 
