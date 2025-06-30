@@ -80,15 +80,17 @@ This WAPDA Management System is a desktop application built with Java Swing and 
 
 3. **Update DB Config**  
   In the Java code, configure your DB connection:
-   ```bash
+
   String url = "jdbc:mysql://localhost:3306/your_db_name";
   String username = "root";
   String password = "your_password";
 
-4. **Run the Project**
+5. **Run the Project**
   Open the project in VS-Code or Eclipse
   Run the main class
 
+
+---
 
 ✅ Future Improvements
 Role-based dashboards with UI distinction
@@ -100,12 +102,13 @@ Email notifications for due payments
 Enhanced UI styling (themes/dark mode)
 
 
-
+---
 
 📄 License
 This project is open-source and free to use for educational purposes.
 
 
+---
 
 🙌 Acknowledgment
 Developed by [Zubair Ahmed]
