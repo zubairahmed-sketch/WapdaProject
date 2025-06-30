@@ -52,17 +52,17 @@ This WAPDA Management System is a desktop application built with Java Swing and 
 
 ## 📸 Screenshots
 
-- ![Login Page]()
-- ![Home Page]()
-- ![SignUp Page]()
-- ![ViewInfo Page]() 
-- ![UpdateInfo Page]()
-- ![Electricity Bill Page]()
-- ![Generate Bill Page]()
-- ![Add NewCustomer Page]() 
-- ![DeleteCustomer Page]()
-- ![Calculate Bll Page]()
-- ![MeterInfo Page]()
+- ![Login Page](screenshots/LoginPage.png)
+- ![Home Page](screenshots/homepage.png)
+- ![SignUp Page](screenshots/SignupPage.png)
+- ![ViewInfo Page](screenshots/viewInfo.png) 
+- ![UpdateInfo Page](screenshots/updateinfo.png)
+- ![Electricity Bill Page](screenshots/Electricitybill.png)
+- ![Generate Bill Page](screenshots/generateBill.png)
+- ![Add NewCustomer Page](screenshots/AddNewCustomer.png) 
+- ![DeleteCustomer Page](screenshots/DeleteCustomer.png)
+- ![Calculate Bill Page](screenshots/CalculateBill.png)
+- ![MeterInfo Page](screenshots/MeterInfo.png)
 
 
 ---
@@ -76,41 +76,41 @@ This WAPDA Management System is a desktop application built with Java Swing and 
 
 2. **Import Database**
    
-  Import the provided .sql file into your MySQL server.
+    Import the provided .sql file into your MySQL server.
   
 
 4. **Update DB Config**  
-  In the Java code, configure your DB connection:
+    In the Java code, configure your DB connection:
 
-  String url = "jdbc:mysql://localhost:3306/your_db_name";
+    String url = "jdbc:mysql://localhost:3306/your_db_name";
   
-  String username = "root";
+    String username = "root";
   
-  String password = "your_password";
+    String password = "your_password";
 
 5. **Run the Project**
    
-  Open the project in VS-Code or Eclipse
+    Open the project in VS-Code or Eclipse
   
-  Run the main class
+    Run the main class
 
 
 ---
 
 ✅ Future Improvements
-Role-based dashboards with UI distinction
+  Role-based dashboards with UI distinction
 
-PDF export of bills
+  PDF export of bills
 
-Email notifications for due payments
+  Email notifications for due payments
 
-Enhanced UI styling (themes/dark mode)
+  Enhanced UI styling (themes/dark mode)
 
 
 ---
 
 📄 License
-This project is open-source and free to use for educational purposes.
+  This project is open-source and free to use for educational purposes.
 
 
 ---
